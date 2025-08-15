@@ -2,8 +2,9 @@
 from google.adk.agents import LlmAgent
 
 from .prompt import UNHINGED_ADVICE_PROMPT
+from parakeet.default_env import MODEL
 
-MODEL = "gemini-2.0-flash"
+# MODEL = "gemini-2.0-flash"
 
 unhinged_advice_agent = LlmAgent(
     name="unhinged_advice_agent",
