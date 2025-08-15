@@ -1,12 +1,15 @@
 # parakeet
-LLM Agests as services
+LLM Agents as services
 
 parakeet/  # Mono of agents
-
 tests/
 test_agents/
 
 
 ## Running
-Navagate to agent dir (agent_workspace)
-run `adk web`
+Navigate to agent dir (parakeet_flock)
+
+```bash
+cd parakeet_flock
+adk web
+```
