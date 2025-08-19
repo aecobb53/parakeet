@@ -6,6 +6,8 @@ from .prompt import ROOT_AGENT_PROMPT
 from .default_env import MODEL
 
 from .sub_agents.unhinged_advice import unhinged_advice_agent
+from .sub_agents.current_events.agent import current_event_agent
+# from .sub_agents.climate_change.agent import climate_change_agent
 
 
 # MODEL = "gemini-2.0-flash"
@@ -20,5 +22,7 @@ root_agent = LlmAgent(
     instruction=ROOT_AGENT_PROMPT,
     tools=[
         AgentTool(unhinged_advice_agent),
+        AgentTool(current_event_agent),
+        # AgentTool(climate_change_agent),
     ],
 )

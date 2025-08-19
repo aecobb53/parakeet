@@ -10,6 +10,6 @@ test_agents/
 Navigate to agent dir (parakeet_flock)
 
 ```bash
-cd parakeet_flock
+cd parakeet-flock
 adk web
 ```
